@@ -6,10 +6,6 @@ dice2 = 0;
 
 document.getElementById('TRY').addEventListener('click', () =>{
     
-   
-   
-   
-
 var play = document.getElementById("play");
 
 
@@ -32,7 +28,7 @@ function rollDice(){
         dice1 ++;
         score.innerHTML = dice1;
         score + 1;
-        return "Player 1 wins!";
+        return "Player 1 wins! ";
        
     
     }
