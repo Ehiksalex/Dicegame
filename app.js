@@ -41,6 +41,12 @@ function rollDice(){
         
     }
     else{
+        dice1 ++;
+
+        score.innerHTML = dice1
+        dice2 ++;
+
+        score1.innerHTML = dice2;
         score + 1;
         score1 + 1
         return "It's a draw!";
